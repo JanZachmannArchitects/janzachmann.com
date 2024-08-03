@@ -7,11 +7,27 @@
     <meta name="keywords" content="Jan Zachmann, Architect, Contact, Information, Work Locations">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+      @font-face {
+  font-family: 'Helvetica Neue';
+  src: url('path/to/HelveticaNeue-Light.woff2') format('woff2'),
+       url('path/to/HelveticaNeue-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('path/to/HelveticaNeue-Regular.woff2') format('woff2'),
+       url('path/to/HelveticaNeue-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
       html, body {
         height: 100%;
         margin: 0;
         padding: 0;
-        font-family: "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
         font-size: 16px;
       }
       
@@ -35,8 +51,7 @@
       }
      
      .name {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: 750;
+        font-weight: 400;
         }
       
       b {
